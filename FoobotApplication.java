@@ -62,12 +62,12 @@ public class FoobotApplication {
 	
 	private void initFile() {
 		File f = new java.io.File("");
-		config.put("API","eyJhbGciOiJIUzI1NiJ9.eyJncmFudGVlIjoicGF0cmljay5kdWZhdXJlQGZyZWUuZnIiLCJpYXQiOjE0NjA5ODc5NDYsInZhbGlkaXR5IjotMSwianRpIjoiYzYxMWRmM2MtZDJmZC00ZjIyLWE4NzktNTBhZTIyZWE5NjA5IiwicGVybWlzc2lvbnMiOlsidXNlcjpyZWFkIiwiZGV2aWNlOnJlYWQiXSwicXVvdGEiOjIwMCwicmF0ZUxpbWl0Ijo1fQ.YHslIOaKY2ArqiZ_3cnLak8AA6l54da8ezu399I5pFM");
+		config.put("API","");
 		config.put("DIR", f.getAbsolutePath());
 		config.put("FREQ", "1");
-		config.put("LOGIN", "patrick.dufaure@free.fr");
-		config.put("UUID", "2D09576D83001C80");
-		config.put("TOKEN", "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InBhdHJpY2suZHVmYXVyZUBmcmVlLmZyIiwianRpIjoiYjNkMDhiYmYtODJiMy00N2RlLWFkYzMtOTBlZDk2NDM0YTRiIiwiZXhwaXJhdGlvbkRhdGUiOjE0OTk4NDIzODgzMzN9.STu_ciKhP5sRJIzxXlusRqzrFtnicohYkYDT4-nwDN0");
+		config.put("LOGIN", "");
+		config.put("UUID", "");
+		config.put("TOKEN", "");
 		modifFile();
 	}
 	
